@@ -1,0 +1,102 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+	@font-face {
+    font-family: "moj_font";
+    src:url("moj_font.ttf");}
+    body {
+    	text-align: center;
+    }
+p {
+	color: darkblue;
+	line-height: 24px;
+	width: 950px;
+	background-color: floralwhite;
+	padding: 30px;
+	text-align: center;
+}
+h1 {
+	display: inline;
+	padding:20px; 
+			margin-left: 200; 
+			margin-right:auto;  
+			width: 300px;
+}
+h1.Matija {
+	font-family: "moj_font";
+}
+h2 {
+	font-family: Times new roman, "serif";
+	color:maroon;
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+}
+p {
+	margin-left: 230px;
+	font-size: 18px;
+}
+h3 {
+	color: darkslateblue;
+}
+body {
+	background-color: antiquewhite; 
+	<width: 1000;
+	padding:20px; 
+}
+a {
+	color: darkblue;
+	background-color: lightsteelblue;
+	padding: 4px;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin-left: auto; 
+	margin-right:auto; 
+	margin: 120px; 
+	width: 150px;
+	display:inline;
+	display text-box-edge: 7px;
+	background-size: 10px;
+	text-align: center;
+	display: inline-block;
+  transition: transform 0.1s ease;
+}
+li {
+	display: inline;
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 300px;
+
+}
+img {
+      display: block;
+      margin: 30px auto;
+      margin-left: 30px;
+      border-radius: 8px;
+      display: inline;
+      box-shadow: 2px,2px,5px rgba(0, 0, 0, 0.3);
+}
+a:hover {
+	background-color: darkslateblue;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+transform: scale(1.1);
+}
+.left-ribbon, .right-ribbon {
+  position: fixed;
+  top: 0;
+  width: 180px; 
+  height: 100vh; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  z-index: 1000;
+}
+
+.left-ribbon {
+  left: 0;
+  background-image: url(slike/traka.jpeg);
+}
+.right-ribbon {
+  right: 0;
+  background-image: url(slike/traka.jpeg);
+}
